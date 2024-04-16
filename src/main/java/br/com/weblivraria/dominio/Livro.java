@@ -8,6 +8,7 @@ public class Livro {
 	private String autor;
 	private Double preco;
 	private String capa;
+	private String marca;
 	
 	
 	public Integer getIdlivro() {
@@ -52,7 +53,7 @@ public class Livro {
 	public void setCapa(String capa) {
 		this.capa = capa;
 	}
-	
+
 	
 
 }
